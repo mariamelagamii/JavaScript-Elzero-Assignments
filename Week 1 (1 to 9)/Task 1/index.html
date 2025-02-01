@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+        // This code will not work because the order of code
+        document.getElementById("el").style.color = "blue";
+    </script>
+    <script>
+        // This code works 
+        window.onload = function () {
+            document.getElementById("el").style.color = "red";
+        };
+    </script>
+</head>
+
+<body>
+    <h1 id="el">Page Title</h1>
+    <script>
+        // This code works for seconds and the page will upload
+        document.getElementById("el").style.color = "green";
+    </script>
+</body>
+
+</html>
