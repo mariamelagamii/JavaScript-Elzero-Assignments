@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    div {
+        position: absolute;
+        top: 220px;
+    }
+    select {
+        border: none;
+        outline: none;
+        margin: 5px;
+    }
+}
